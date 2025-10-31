@@ -1,0 +1,36 @@
+div[class="header"] {
+    text-align: center;
+}
+
+h1[class="courseHeader"]{
+    display: inline-block;
+    border: 3px dashed green;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+div[class="education"] {
+    color:green;
+}
+
+div[class="projects"] {
+    color:red;
+}
+
+div[class="experience"] {
+    color:blue;
+}
+
+div[class="leadership"] {
+    color:magenta;
+}
+
+.material-icons{
+    font-size:30px;
+}
+
