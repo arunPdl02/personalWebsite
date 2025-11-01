@@ -10,6 +10,23 @@ h1[class="courseHeader"]{
     margin: 0 auto;
 }
 
+h1.hireFormHeader{
+    color:blue;
+    display: inline-block;
+    border: 3px dashed green;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 auto;
+}
+
+div.form{
+    background-color: lightblue;
+    width: 95%;
+    margin:0 auto;
+    border:0;
+    padding:5px 20px 10px 20px;
+}
+
 body{
     background-color: lightyellow;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Hire Form</title>
+    <Link rel="stylesheet" href="style.css">
+    <Link rel="stylesheet" href="components.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="hireFormHeader">Hiring Form</h1>
+    </div>
+
+    <div class="form">
+        <div class="companyInformation">
+            <h2>Company Information</h2>
+        </div>
+
+        <hr color="green">
+
+        <div class="jobInformation">
+            <h2>Job description</h2>
+            <form action="database.py" method="post">
+                <label for="username">Name: </label>
+                <input type="text" name="username" id="username">
+                <br><br>
+                <label for="location">Location: </label>
+                <input type="text" name="location" id="location">
+                <br><br>
+                <div class="dropdown">
+                    <button class="dropdownButton">Job Type</button>
+                    <div class="dropdownMenu">
+                        <a href="#">Contract</a>
+                        <a href="#">Full-time</a>
+                        <a href="#">Part-time</a>
+                    </div>
+                </div>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

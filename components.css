@@ -19,3 +19,47 @@ tr:hover{
 table{
     margin: 0 auto;
 }
+
+/* ---------------------Hiring Form----------------- */
+
+.dropdownButton{
+    font-size: 16px;
+    min-width: 85px;
+    cursor: pointer;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.dropdownMenu{
+    display: none;
+    position: absolute; /*bring the menue right below the button*/
+    background-color: aquamarine;
+    min-width: 85px;
+    text-align: center;
+}
+
+.dropdownMenu a{
+    /* Each a is a block now i.e. separated*/
+    display: block;
+    color:brown;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* change the background of the options inside the menu when hovered over them */
+.dropdownMenu a:hover{
+    background-color: lightgreen;
+}
+
+/*Override the display from none to block when hovered over dropdown*/
+.dropdown:hover .dropdownMenu{
+    display: block
+}
+
+/* change the background of the button when hovered over the dropdown area (button and the list) */
+.dropdown:hover .dropdownButton{
+    background-color: darkgray;
+}
